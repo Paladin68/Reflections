@@ -9,3 +9,6 @@ Branches could be used to make new, relatively independent versions of the code.
 
 4) How do the diagrams help you visualize the branch structure?
 They show you the logical layout of commits on each branch, where branches split off from one another, and which commits cannot be navigated to from any position in the repository.
+
+5) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging 2 branches together combines the changes made in each branch into the existing (active) branch.  In the diagram this is representative of independent changes being made in the two branches before they were merged, so the branches can be seen to diverge, change, then converge back into a single branch.
