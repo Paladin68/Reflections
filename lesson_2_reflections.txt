@@ -3,3 +3,7 @@ When you run "git init" you create the hidden .git directory which git will use 
 
 2) How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area is an area that is in flux, or is in draft status.  It is used to prepare files and data that are ready to be committed to the repository.  It can be thought of as a sandbox, or scratch area, where everything can be edited, modified, and created to be ready to add to the repository, then added when everything is ready.
+
+3) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches could be used to make new, relatively independent versions of the code.  One example of when this could be used is when an experimental or drastic change is made that you may or may not want to implement.  The use of branches allows you to independently work on 2 different versions of your code, fix bugs in each independently, and combine in the future if desired.
+
