@@ -7,3 +7,5 @@ The staging area is an area that is in flux, or is in draft status.  It is used 
 3) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Branches could be used to make new, relatively independent versions of the code.  One example of when this could be used is when an experimental or drastic change is made that you may or may not want to implement.  The use of branches allows you to independently work on 2 different versions of your code, fix bugs in each independently, and combine in the future if desired.
 
+4) How do the diagrams help you visualize the branch structure?
+They show you the logical layout of commits on each branch, where branches split off from one another, and which commits cannot be navigated to from any position in the repository.
