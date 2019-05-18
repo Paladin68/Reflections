@@ -12,3 +12,7 @@ They show you the logical layout of commits on each branch, where branches split
 
 5) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Merging 2 branches together combines the changes made in each branch into the existing (active) branch.  In the diagram this is representative of independent changes being made in the two branches before they were merged, so the branches can be seen to diverge, change, then converge back into a single branch.
+
+6) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: can simplify merges that make sense
+Cons: can sometime cause unexpected results and drive additional troubleshooting
