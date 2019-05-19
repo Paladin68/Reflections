@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+A remote repository could be beneficial in several cases, such as when multiple people are collaborating on a project or when you need to access the project from more than one location (such as from work and from home).  Having a remote repository allows the project to be accessed and modified from multiple locations, providing versatility and team collaboration capabilities, plus it provides a centralized storage of the work which can serve as an off-site backup of your project data.
+
