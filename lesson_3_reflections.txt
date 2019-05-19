@@ -3,3 +3,11 @@ A remote repository could be beneficial in several cases, such as when multiple 
 
 2) Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 One instance where automatically syncing your local respository with the remote repository would be in the case of team collaboration.  If you are working on the same file that someone else on your team is working on, automatically syncing from the remote could cause conflicts between your version and a version that someone else may  have pushed to the remote repository.  This holds true for added and removed files as well.
+
+3) Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Fork: creates a copy directly from a source GitHub repository to your own GitHub repository
+Clone: creates a copy of one repository (local or GitHub) to another repository (local)
+Branch: creates an independent branch on an existing repository
+You would use a fork to make a copy of an existing GitHub repository that you can modify while giving credit to the author of the original.  You would clone when you want to make a copy of any repository to work on.  You would use a branch when you want to create another path to modify an existing repository and allow modifications in parallel.
+
+4) 
