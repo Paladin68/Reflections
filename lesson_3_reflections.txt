@@ -12,3 +12,6 @@ You would use a fork to make a copy of an existing GitHub repository that you ca
 
 4) What is the benefit of having a copy of the last known state of the remote stored locally?
 This serves two main purposes.  First, it allows you to compare your local repository to the last known state of the remote.  Second, it allows you to compare your local copy of the remote with a current version of the remote to identify changes to the remote repository that are out of sync with your local repository.
+
+5) How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I have used Microsoft SharePoint for collaboration.  I have also used shared network folders.  In both cases, each file could only be modified by one person at a time.  If multiple people need to modify the same file, different versions of the file must be created and then manually compared to merge the changes into the final, approved document.  This solution is generally harder to maintain on anything but very small teams, and results in a lot more work to keep things in sync.  The only real advantage to this is that it doesn't require team members to learn new skills that would be necessary to use a VCS such as Git/GitHub.
