@@ -10,4 +10,5 @@ Clone: creates a copy of one repository (local or GitHub) to another repository 
 Branch: creates an independent branch on an existing repository
 You would use a fork to make a copy of an existing GitHub repository that you can modify while giving credit to the author of the original.  You would clone when you want to make a copy of any repository to work on.  You would use a branch when you want to create another path to modify an existing repository and allow modifications in parallel.
 
-4) 
+4) What is the benefit of having a copy of the last known state of the remote stored locally?
+This serves two main purposes.  First, it allows you to compare your local repository to the last known state of the remote.  Second, it allows you to compare your local copy of the remote with a current version of the remote to identify changes to the remote repository that are out of sync with your local repository.
